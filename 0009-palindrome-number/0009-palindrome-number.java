@@ -12,3 +12,6 @@ class Solution {
         return true;
     }
 }
+
+//Time Complexity : Theta(1)
+//Space Complexity : Theta(1)
