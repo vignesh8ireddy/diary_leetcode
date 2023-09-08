@@ -20,7 +20,6 @@ class Solution {
 */
 
 //More optimised Approach
-
 class Solution {
     public boolean isPalindrome(int x) {
         if(x<0 || (x>0 && x%10==0))
@@ -36,3 +35,6 @@ class Solution {
         return false;
     }
 }
+
+//Beats 100% of java users in Time Complexity
+//Beats 73% of java users in Space Complexity
