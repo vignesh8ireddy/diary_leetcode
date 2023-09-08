@@ -27,10 +27,8 @@ class Solution {
             return false;
         int rev=0;
         int n = x;
-        int temp;
         while(n>0){
-            temp = n%10;
-            rev=rev*10+temp;
+            rev=rev*10+(n%10);
             n = n/10;
         }
         if(rev==x)
